@@ -1,0 +1,279 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    padding: 0%;
+}
+#mynav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 15px 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+#mynav.scrolled {
+    background-color: rgba(159, 159, 159);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    color: black;
+}
+.main{
+    background-image: url(./images/banner-bg.jpg);
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+.navbar{
+    width: 100%;
+    height: 10vh;
+    border-bottom: 1px solid rgb(157, 157, 157);
+    display: flex;
+    position: fixed;
+    justify-content: space-evenly;
+}
+
+.navitem{
+    width: 40%;
+    height: fit-content;
+    /* border: 1px solid aqua; */
+    display: flex;
+    justify-content: center;
+}
+
+.item2{
+    width: 60%;
+    justify-content: start;
+}
+
+.item2 i{
+    color: white;
+    padding: 18px 50px;
+    font-size: 20px;
+    display: none;
+    
+}
+
+.navbtns{
+    /* padding-inline:20px */
+    padding:16px 40px;
+    background-color: transparent;
+    color: rgb(232, 232, 232);
+    border: none;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.navbtns:hover{
+    color: gray;
+}
+
+.insidemain{
+    width: 80%;
+    height: 80vh;
+    /* background-color: aqua; */
+    margin: auto;
+    text-align: center;
+    align-content: center;
+    font-family: sans-serif;
+}
+
+.insidemain h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.insidemain h1{
+    font-size: 55px;
+    padding: 20px 0px;
+    color: white;
+    font-weight: bolder;
+}
+
+.field{
+    width: 100%;
+    column-gap: 0px;
+}
+
+input[type="address"]{
+    padding-inline: 100px;
+    padding-block: 20px;
+    border: none;
+}
+
+.field select{
+    padding-inline: 150px;
+    padding-block: 22px;
+    border: none;
+}
+
+.Area{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+}
+
+input[type="button"]{
+    padding-inline: 20px;
+    padding-block: 20px; 
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    background-color: gray;
+    border: none;
+    font-weight: bold;
+}
+
+.icons{
+    min-width: min-content;
+    max-width: auto;
+    padding: 20px 30px;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: center;
+}
+
+.icons i{
+    margin-inline: 50px;
+    padding-block: 25px;
+    padding-inline: 25px;
+    background-color: white;
+    /* border: 2px solid white; */
+    font-size: 20px;
+    border-radius: 50px;
+}
+
+.section1{
+    width: 100%;
+    height: auto;
+    /* border: 2px solid aqua; */
+}
+
+.sectioninside{
+    width: 80%;
+    height: auto;
+    /* background-color: blueviolet; */
+    margin: auto;
+    
+}
+
+.head{
+    width: 100%;
+    text-align: center;
+    padding:85px;
+    /* border: 1px solid white; */
+}
+
+.head h2{
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+
+.head h4{
+    color: gray;
+    font-size: 20px;
+}
+
+.details{
+    width: 85%;
+    height: 650px;
+    background-color: #2b2d42;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.first_row{
+    /* border: 2px solid black; */
+    width: 25%;
+    height: auto;
+    
+}
+
+.col-12{
+   border-bottom: 1px solid black;
+   display: flex;
+   align-items: center;
+   padding: 25px 20px;
+   background-color: #8d99af;
+}
+
+.col-12 h3{
+    text-transform: capitalize;
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+}
+
+.col-12 i{
+    margin-inline: 10px;
+    padding-block: 25px;
+    padding-inline: 25px;
+    background-color: white;
+    /* border: 2px solid white; */
+    font-size: 20px;
+    border-radius: 50px;
+}
+
+.col-6{
+    height: auto;
+    width: 75%;
+    display: flex;
+    /* border: 2px solid white; */
+}
+
+.colinside{
+    width: 50%;
+    height: 650px;
+    /* border: 2px solid black; */
+   
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img{
+    min-width: auto;
+    max-width: 100%;
+}
+
+.msg{
+    padding: 190px 50px;
+    text-align: start;
+    color: white;
+}
+
+.msg h3{
+    font-size: 25px;
+    padding: 20px 0px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.msg p{
+    font-size: 18px;
+    padding: 10px 0px;
+    line-height: 30px;
+    font-weight: lighter;
+}
+
+.discover{
+    min-width: 100%;
+    max-width: 100%;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-weight: 100;
+    text-transform: capitalize;
+}
